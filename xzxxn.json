@@ -37,7 +37,7 @@
   ],
   "task": [
     {
-      "config": "2 3 * * * https://raw.githubusercontent.com/xzxxn777/Surge/main/Script/FTEJ/FTEJ.js, tag=福田e家, img-url=https://raw.githubusercontent.com/xzxxn777/Surge/main/Script/FTEJ/FTEJ.png"
+      "config": "5 3 * * * https://raw.githubusercontent.com/xzxxn777/Surge/main/Script/FTEJ/FTEJ.js, tag=福田e家, img-url=https://raw.githubusercontent.com/xzxxn777/Surge/main/Script/FTEJ/FTEJ.png"
     }
   ]
 }
