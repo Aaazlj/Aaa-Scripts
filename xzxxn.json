@@ -1,6 +1,6 @@
 {
   "id": "xzxxn777",
-  "name": "雪之下雪乃",
+  "name": "test",
   "author": "@xzxxn777",
   "icon": "https://raw.githubusercontent.com/xzxxn777/Surge/main/xzxxn.JPG",
   "repo": "https://github.com/xzxxn777/Surge",
@@ -1078,7 +1078,7 @@
   ],
   "task": [
     {
-      "config": "45 2 * * * https://raw.githubusercontent.com/xzxxn777/Surge/main/Script/FTEJ/FTEJ.js, tag=福田e家, img-url=https://raw.githubusercontent.com/xzxxn777/Surge/main/Script/FTEJ/FTEJ.png"
+      "config": "48 2 * * * https://raw.githubusercontent.com/xzxxn777/Surge/main/Script/FTEJ/FTEJ.js, tag=福田e家, img-url=https://raw.githubusercontent.com/xzxxn777/Surge/main/Script/FTEJ/FTEJ.png"
     }
   ]
 }
