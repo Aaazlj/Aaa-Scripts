@@ -34,5 +34,10 @@
         "https://raw.githubusercontent.com/xzxxn777/Surge/main/Script/FTEJ/FTEJ.png"
       ]
     }
+  ],
+  "task": [
+    {
+      "config": "1 3 * * * https://raw.githubusercontent.com/xzxxn777/Surge/main/Script/FTEJ/FTEJ.js, tag=福田e家, img-url=https://raw.githubusercontent.com/xzxxn777/Surge/main/Script/FTEJ/FTEJ.png
+    }
   ]
 }
