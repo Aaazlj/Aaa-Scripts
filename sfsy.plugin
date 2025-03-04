@@ -4,7 +4,7 @@
 
 [Script]
 cron "11 6,9,12,15,18 * * *" script-path=https://raw.githubusercontent.com/smallfawn/QLScriptPublic/62e850a2d3448fc0e01aeefc54b54e128d93453b/sfsy.js, tag=顺丰速运
-http-response ^https:\/\/mcs-mimp-web\.sf-express\.com\/mcs-mimp\/share\/weChat\/shareGiftReceiveRedirect.+ script-path=https://raw.githubusercontent.com/Aaazlj/Aaa-Scripts/refs/heads/main/sfsy.js, requires-body=true, timeout=60, tag=顺丰速运获取token,img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/sfsy.png
+http-response ^https:\/\/mcs-mimp-web\.sf-express\.com\/mcs-mimp\/share\/weChat\/shareGiftReceiveRedirect.+ script-path=https://gist.githubusercontent.com/Sliverkiss/1fb1cf9cd7486d30752b1ba29b871e37/raw/sfsy.js, requires-body=true, timeout=60, tag=顺丰速运获取token,img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/sfsy.png
 
 [MITM]
 
