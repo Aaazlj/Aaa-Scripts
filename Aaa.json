@@ -9,7 +9,8 @@
       "id": "sfsy",
       "name": "顺丰速运",
       "keys": [
-        "sfsyUrl"
+        "sfsyUrl",
+        "sfsyBee"
       ],
       "settings": [
         {
@@ -18,6 +19,13 @@
           "val": "",
           "type": "text",
           "desc": "打开小程序或APP-我的-积分, 捉以下几种url之一,把整个url放到变量 sfsyUrl 里,多账号换行分割"
+        },
+        {
+          "id": "sfsyBee",
+          "name": "采蜜游戏",
+          "val": "true",
+          "type": "text",
+          "desc": "采蜜游戏入口: 我的-积分抽奖-拉到最下面收件兑奖,采蜜的蜂蜜可以换快递券和实物"
         }
       ],
       "author": "Aaa",
