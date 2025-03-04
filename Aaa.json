@@ -1,0 +1,32 @@
+{
+  "id": "Aaa",
+  "name": "Aaa",
+  "author": "Aaa",
+  "icon": "https://raw.githubusercontent.com/Aaazlj/Aaa-Scripts/main/tx.jpg",
+  "repo": "https://github.com/Aaazlj/Aaa-Scripts",
+  "apps": [
+    {
+      "id": "sfsy",
+      "name": "顺丰速运",
+      "keys": [
+        "sfsyUrl"
+      ],
+      "settings": [
+        {
+          "id": "sfsyUrl",
+          "name": "token",
+          "val": "",
+          "type": "text",
+          "desc": "打开小程序或APP-我的-积分, 捉以下几种url之一,把整个url放到变量 sfsyUrl 里,多账号换行分割"
+        }
+      ],
+      "author": "Aaa",
+      "repo": "https://github.com/Aaazlj/Aaa-Scripts",
+      "script": "https://raw.githubusercontent.com/smallfawn/QLScriptPublic/62e850a2d3448fc0e01aeefc54b54e128d93453b/sfsy.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/sfsy.png",
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/sfsy.png"
+      ]
+    }
+  ]
+}
