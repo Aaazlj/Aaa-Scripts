@@ -3,8 +3,8 @@
 #!category=羊毛
 
 [Script]
-cron "11 6,9,12,15,18 * * *" script-path=https://raw.githubusercontent.com/Aaazlj/Aaa-Scripts/refs/heads/main/sfsy.js, tag=顺丰速运
 http-response ^https:\/\/mcs-mimp-web\.sf-express\.com\/mcs-mimp\/share\/weChat\/shareGiftReceiveRedirect.+ script-path=https://raw.githubusercontent.com/Aaazlj/Aaa-Scripts/refs/heads/main/sfsy.js, requires-body=true, timeout=60, tag=顺丰速运获取token
+cron "11 6,9,12,15,18 * * *" script-path=https://raw.githubusercontent.com/Aaazlj/Aaa-Scripts/refs/heads/main/sfsy.js, tag=顺丰速运
 
 [MITM]
 hostname = mcs-mimp-web.sf-express.com
