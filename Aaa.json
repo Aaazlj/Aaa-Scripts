@@ -35,6 +35,29 @@
         "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/sfsy.png",
         "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/sfsy.png"
       ]
+    },
+    {
+      "id": "sfsy",
+      "name": "小蚕",
+      "keys": [
+        "xcbwc_data"
+      ],
+      "settings": [
+        {
+          "id": "xcbwc_data",
+          "name": "token",
+          "val": "",
+          "type": "text",
+          "desc": "变量格式: [{'userId':'x-vayne','teemo':'x-teemo','token':'x-sivir','userName':'备注'},{'userId':'x-vayne','teemo':'x-teemo','token':'x-sivir','userName':'备注'}]"
+        }
+      ],
+      "author": "Aaa",
+      "repo": "https://github.com/Aaazlj/Aaa-Scripts",
+      "script": "https://gist.githubusercontent.com/Sliverkiss/250a02315f0a2c99f42da3b3573375c8/raw/xcbwc.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/xcbwc.png",
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/xcbwc.png"
+      ]
     }
   ]
 }

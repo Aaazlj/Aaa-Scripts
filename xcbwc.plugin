@@ -1,0 +1,11 @@
+#!name=小蚕
+#!desc=小蚕
+#!category=羊毛
+#!icon=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/xcbwc.png
+
+[Script]
+http-response ^https:\/\/gw\.xiaocantech\.com\/rpc url script-response-body https://gist.githubusercontent.com/Sliverkiss/250a02315f0a2c99f42da3b3573375c8/raw, requires-body=true, timeout=60, tag=获取token
+cron "0 0 * * *" script-path=https://gist.githubusercontent.com/Sliverkiss/250a02315f0a2c99f42da3b3573375c8/raw/xcbwc.js, tag=小蚕
+
+[MITM]
+hostname = gw.xiaocantech.com
