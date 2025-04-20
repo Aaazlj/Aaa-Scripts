@@ -1,16 +1,12 @@
-#!name = XiaoCan
-#!desc = 更改 @Sliverkiss的小蚕霸王餐脚本 添加获取cookie/token及脚本开关
-#!author = Leslie、
-#!homePage = https://github.com/HMT-pro/Loon/tree/main/Plugin
-#!data = 2024-12-3
-#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/XiaoCan.png
-#!system = iOS,iPadOS
-#!loon_version = 3.2.4(753)
+#!name = 小蚕
+#!desc = 小蚕
+#!category=羊毛
+#!icon = https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/xcbwc.png
 
 [Argument]
 
 arg1 = switch,true,tag=小蚕霸王餐获取cookie/token
-arg2= input,"9 9 * * *",tag=小蚕霸王餐任务时间
+arg2= input,"0 0 * * *",tag=小蚕霸王餐任务时间
 arg3 = switch,true,tag=小蚕霸王餐任务开关
 [Script]
 http-response ^https:\/\/gw\.xiaocantech\.com\/rpc script-path=https://gist.githubusercontent.com/Sliverkiss/250a02315f0a2c99f42da3b3573375c8/raw/xcbwc.js, requires-body=true, timeout=60, enable = {arg1}, tag=小蚕霸王餐
